@@ -22,9 +22,8 @@ The extended version of the GTSDB is labeled with 164 classes following the defi
 
 | Category     | |Original GTSDB | |Extended GTSDB |
 |              |Train   | Test  | Train | Test  |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| git status   | | git status     | | git status    |
+| git diff     | | git diff       | | git diff      |
 
 
 

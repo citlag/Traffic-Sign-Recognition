@@ -2,7 +2,7 @@
 
 Following the trend for evaluating traffic sign detection methods, we proposed an extended version of the GTSDB, labeling traffic signs not included in the dataset but visible and recognizable in the scenes. This version contains the same number of images with complete information about the text and symbol traffic signs. The following image shows some examples of the traffic signs visible in the original GTSDB and not contemplated in their ground truth.
 
-![picture](Images/extra\ signs.png)
+![picture](Images/extra_signs.png)
 
 Differently from the original version, which provides RoIs labeled with 43 classes grouped into four categories for detection approaches, our proposed extended version also includes two more formats of ground truth to perform semantic and instance segmentation. This dataset comprises six extra categories with 164 classes following the definition from the [European Traffic Sign Dataset (ETSD)](https://ieeexplore.ieee.org/abstract/document/8558481).  
 
@@ -20,7 +20,7 @@ The extended version of the GTSDB is labeled with 164 classes following the defi
 - 841 for the test set. 
 
 
-| Category     | Original GTSDB | Extended GTSDB |
+| Category     | |Original GTSDB | |Extended GTSDB |
 |              |Train   | Test  | Train | Test  |
 | :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |

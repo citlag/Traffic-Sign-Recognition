@@ -20,10 +20,10 @@ The extended version of the GTSDB is labeled with 164 classes following the defi
 - 841 for the test set. 
 
 
-| Category     | |Original GTSDB | |Extended GTSDB |
-|              |Train   | Test  | Train | Test  |
-| git status   | | git status     | | git status    |
-| git diff     | | git diff       | | git diff      |
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 
 

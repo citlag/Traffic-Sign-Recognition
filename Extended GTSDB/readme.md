@@ -20,10 +20,19 @@ The extended version of the GTSDB is labeled with 164 classes following the defi
 - 841 for the test set. 
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Category      | Original Train  | Original Test | Extended Train  | Extended Test |
+| ------------- | --------------- | ------------- | --------------- | ------------- |
+| Danger        |   156           | 63            | 156             | 66            |
+| Priority      |   -             | -             | 128             | 74            |
+| Prohibitory   | 396             | 161           | 478             | 193           |
+| Mandatory     | 114             | 49            | 122             | 56            |
+| Special regulation | -          | -             | 115             | 73            |
+| Information   | -               | -             | 0               | 1             |
+| Direction     | -               | -             | 355             | 171           |
+| Additional panels | -           | -             | 172             | 109           |
+| Others        | 186             | 88            | 284             | 92            |
+| Unknown       | -               | -             | 4               | 6             |
+| Total         | 852             | 361           | 1814            | 841           |
 
 
 

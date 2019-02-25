@@ -32,7 +32,7 @@ The extended version of the GTSDB is labeled with 164 classes following the defi
 | Additional panels | -           | -             | 172             | 109           |
 | Others        | 186             | 88            | 284             | 92            |
 | Unknown       | -               | -             | 4               | 6             |
-| **Total**     | **852**         | **361**       | **1814**        | **841  **     |
+| **Total**     | **852**         | **361**       | **1814**        | **841**       |
 
 
 

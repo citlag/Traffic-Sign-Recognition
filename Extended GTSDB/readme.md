@@ -21,7 +21,7 @@ The extended version of the GTSDB is labeled with 164 classes following the defi
 
 
 | Category      | Original Train  | Original Test | Extended Train  | Extended Test |
-| ------------- | --------------- | ------------- | --------------- | ------------- |
+| ------------- | :-------------: | :-----------: | :-------------: | :-----------: |
 | Danger        |   156           | 63            | 156             | 66            |
 | Priority      |   -             | -             | 128             | 74            |
 | Prohibitory   | 396             | 161           | 478             | 193           |

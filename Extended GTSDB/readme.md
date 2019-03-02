@@ -1,6 +1,6 @@
 # German Traffic Sign Detection Benchmark - Extended Version
 
-Following the trend for evaluating traffic sign detection methods, we proposed an extended version of the GTSDB, labeling traffic signs not included in the dataset but visible and recognizable in the scenes. This version contains the same number of images with complete information about the text and symbol traffic signs. The following image shows some examples of the traffic signs visible in the original GTSDB and not contemplated in their ground truth.
+Following the trend for evaluating traffic sign detection methods, we proposed an extended version of the [GTSDB](http://benchmark.ini.rub.de/?section=gtsdb&subsection=dataset), labeling traffic signs not included in the dataset but visible and recognizable in the scenes. This version contains the same number of images with complete information about the text and symbol traffic signs. The following image shows some examples of the traffic signs visible in the original GTSDB and not contemplated in their ground truth.
 
 ![picture](Images/extra_signs.png)
 

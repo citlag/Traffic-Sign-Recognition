@@ -1,4 +1,4 @@
-Copyright 2019 UTBM
+Copyright 2019 citlalli.gamez UTBM
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -14,9 +14,7 @@ limitations under the License.
 
 
 1. About this file
-This ReadMe.txt is attached to the extended German Traffic Sign Detection Benchmark (GTSDB) dataset. The dataset contains mask labels added to the 
-work of Meletis and Dubbleman. You are free to use this data only for research purposes. If you use it in a scientific publication, we want to 
-ask you to cite the following papers:
+This datasetInfo.txt is attached to the extended German Traffic Sign Detection Benchmark (GTSDB) dataset. The dataset contains mask labels added to the work of Meletis and Dubbleman. You are free to use this data only for research purposes. If you use it in a scientific publication, we want to ask you to cite the following papers:
 
 @article{serna2018classification,
   title={Classification of Traffic Signs: The European Dataset},
@@ -47,8 +45,7 @@ ask you to cite the following papers:
 2. Content of the dataset
 Along with this file you should have received:
 a) train and test folders with three ground truth formats 
-a) the semantics folder in each set(600 images for train and 300 images for test), contains the traffic sign masks following the Mapillary format 
-with 2 classes (traffic signs front and background).
+a) the semantics folder in each set(600 images for train and 300 images for test), contains the traffic sign masks following the Mapillary format with 2 classes (traffic signs front and background).
 b) the instances folder in each set, contain 16 bit images where the first 8 correspond to the semantic class and the last 8 to the instance ID. 
 c) a txt file named "GT_train" and "GT_test" in each corresponding folder, where the image number, RoI and traffic sign label are saved.
 
@@ -62,16 +59,14 @@ ID = Label name -> RGB color
 65 = unlabeled -> (0,0,0)
 
 Instance labels
-Each image pixel is labelled with a unique ID for each traffic sign instance. The 16 bits images store in the first 8 bits the semantic id 
-while in the last 8 bits the instance IDs are stored. 
+Each image pixel is labelled with a unique ID for each traffic sign instance. The 16 bits images store the semantic ID in the first 8 bits while the instance IDs are stored in the last 8. 
 The instance IDs start from 1 to n, depending on the number of traffic signs in each image.
 
 Detection labels
-The GT_train.txt and GT_test.txt files, contain the RoIs information of each traffic sign together with its corresponding label class and image number.
+The GT_train.txt and GT_test.txt files, contain the RoIs information of each traffic sign together with its corresponding class label and image number.
 The information is stored in the following way:
 ImageNumber.ppm;X1;Y1;X2;Y2;ClassID
-The first field refers to the image file where the traffic sign is located in. Field 2 to 5 describe the region of interest (ROI) in that image. 
-Finally, the ClassID is an integer number representing the traffic sign class. 
+The first field refers to the image file where the traffic sign is located in. Field 2 to 5 describe the region of interest (ROI) in that image. Finally, the ClassID is an integer number representing the traffic sign class. 
 
 The traffic sign classes and their corresponding categories are defined as follows:
 ## Categories ##
